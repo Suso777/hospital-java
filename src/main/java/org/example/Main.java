@@ -1,10 +1,10 @@
 package org.example;
 
 
-import org.example.doctors.SpecialistDoctor;
-import org.example.doctors.StudentDoctor;
-import org.example.patients.AmbulancePatient;
-import org.example.patients.ConsultationPatient;
+import org.example.SpecialistDoctor;
+import org.example.StudentDoctor;
+import org.example.AmbulancePatient;
+import org.example.ConsultationPatient;
 
 public class Main {
 

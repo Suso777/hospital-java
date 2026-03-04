@@ -1,4 +1,4 @@
-package org.example.interfaces;
+package org.example;
 
 public interface IWorkSchedule {
     void weeklyWorkHours();

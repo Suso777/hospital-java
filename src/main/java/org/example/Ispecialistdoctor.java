@@ -1,4 +1,4 @@
-package org.example.interfaces;
+package org.example;
 
 public interface ISpecialistDoctor extends IWorkSchedule {
     void vacation();
