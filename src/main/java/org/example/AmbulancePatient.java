@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.characters.Patient;
-import org.example.interfaces.IAmbulancePatient;
+import org.example.Patient;
+import org.example.IAmbulancePatient;
 
 public class AmbulancePatient extends Patient implements IAmbulancePatient {
 
