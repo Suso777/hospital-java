@@ -1,8 +1,9 @@
 package org.example;
 
 
-import org.example.characters.Patient;
-import org.example.interfaces.IConsultationPatient;
+import org.example.Patient;
+import org.example.IConsultationPatient;
+import org.example.ConsultationPatient;
 
 public class ConsultationPatient extends Patient implements IConsultationPatient {
 
@@ -71,7 +72,7 @@ public class ConsultationPatient extends Patient implements IConsultationPatient
 
     @Override
     public String toString() {
-        return "[ConsultationPatient] " + super.toString() +
+        return "ConsultationPatient " + super.toString() +
                 " | Nurse: " + assignedNurse +
                 " | Room: " + roomNumber +
                 " | Next Appointment: " + appointmentDate;
